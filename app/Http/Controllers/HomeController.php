@@ -39,7 +39,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $players = Player::all();
+         $players = Player::all();
         $categories = Category::all();
         $questions = Question::all();
         $levels = Level::all();
